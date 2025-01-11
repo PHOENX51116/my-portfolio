@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/82843d5c05.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="hero">
+        <nav>
+            <img src="images/png logo.png" class="logo">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about-heading">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+               
+            </ul>
+                
+            <img src="images/moon.png" id="icon">
+        </nav>
+        <div class="header-text">
+            <h1>Hi, My name is <span>Rayyan</span><br> and I am a passionate</h1>
+            <span id="element"></span><br>
+            <a href="documents/final Resume.docx"><span>Download CV</span></a>
+        </div>
+
+        <div class="img-box">
+            <img src="images/pattern.png" class="back-img">
+            <img src="images/my.png" class="main-img">
+        </div>
+
+       
+
+        <div class="space" style="height: 30vh;"></div>
+        <div id="about-heading"><h1>ABOUT ME</h1></div>
+
+
+        <div class="contain">
+            <div class="progress-wrapper">
+              <p class="label">HTML</p>
+              <div class="progress-circle" id="html"></div>
+            </div>
+            <div class="progress-wrapper">
+              <p class="label">CSS</p>
+              <div class="progress-circle" id="css"></div>
+            </div>
+            <div class="progress-wrapper">
+              <p class="label">JavaScript</p>
+              <div class="progress-circle" id="javascript"></div>
+            </div>
+            <div class="progress-wrapper">
+              <p class="label">Python</p>
+              <div class="progress-circle" id="python"></div>
+            </div>
+          </div>
+
+
+        <section class="circles">
+            <div class="circle" data-prog="95">
+                <svg width="250" height="250">
+                    <circle
+                      r="100"
+                      cx="125"
+                      cy="125"
+                      class="track">
+                    </circle>
+
+                    <circle
+                    r="100"
+                    cx="125"
+                    cy="125"
+                    class="progress"
+                     >
+                    </circle>
+                </svg>
+
+
+                <div class="circle-inner">
+                    <h1>95%</h1>
+                </div>
+            </div>
+            <div class="circle" data-prog="82">
+                <svg width="250" height="250">
+                    <circle
+                      r="100"
+                      cx="125"
+                      cy="125"
+                      class="track">
+                    </circle>
+
+                    <circle
+                    r="100"
+                    cx="125"
+                    cy="125"
+                    class="progress"
+                     >
+                    </circle>
+                </svg>
+                <div class="circle-inner">
+                    <h1>70%</h1>
+                    <!-- <h1>CSS</h1> -->
+            </div>
+            </div>
+            <div class="circle" data-prog="77">
+                <svg width="250" height="250">
+                    <circle
+                      r="100"
+                      cx="125"
+                      cy="125"
+                      class="track">
+                    </circle>
+                    <circle
+                    r="100"
+                    cx="125"
+                    cy="125"
+                    class="progress">
+                </circle>
+                </svg>
+
+                <div class="circle-inner">
+                    <h1>43%</h1>
+                    <!-- <h1>JavaScript</h1> -->
+                </div>
+            </div>
+            <div class="circle" data-prog="65">
+                <svg width="250" height="250">
+                    <circle
+                      r="100"
+                      cx="125"
+                      cy="125"
+                      class="track">
+                    </circle>
+                    <circle
+                    r="100"
+                    cx="125"
+                    cy="125"
+                    class="progress">
+                </circle>
+                </svg>
+
+                <div class="circle-inner">
+                    <h1>67%</h1>
+                    <!-- <h1>Python</h1> -->
+
+                </div>
+            </div>
+        </section>
+        <!-- <div class="space" style="height:20em";></div> -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/developer.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">PERSONAL INFORMATION</h1><br><br>
+                    Hi, my name is Rayyan, and I’m a passionate software engineer with a Bachelor’s degree<br>
+                    in Software Engineering from Majan University College, Oman. 
+                    My technical expertise spans programming in Python,<br> web development, mobile app development,
+                    I am also exploring Amazon FBA and enjoy staying updated<br>with emerging technologies.
+                     Currently, I’m focused on improving my Python skills<br>
+                    My ultimate aspiration is to contribute to innovative projects in software engineering, combining creativity<br>
+                     and technical expertise to solve real-world problems. 
+                    Please feel free to check out my 
+                  </p>
+
+                  <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                    <p class="tab-links" onclick="opentab('education')">education</p>
+                    <p class="tab-links" onclick="opentab('certification')">certification</p>
+                  </div>
+                  <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>SQL Database</span><br>Creating &Editing Databases</li>
+                    </ul>
+                  </div>
+                  <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024</span><br>Sql database training,INDIA</li>
+                        <li><span>2024</span><br>python fullstack training,INDIA</li>
+                        <li><span>2024</span><br>Mobile app development training,INDIA</li>
+                        <li><span>2023</span><br>Bsc from Majan university college,OMAN</li>
+                        <li><span>2019</span><br>Schooling from Indian school Muladha,OMAN</li>
+
+                    </ul>
+                  </div>
+                  <div class="tab-contents" id="certification">
+                    <ul>
+                        <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>SQL Database</span><br>Creating &Editing Databases</li>
+                    </ul>
+                  </div>
+                  
+            </div>
+
+        </div>
+    </div>
+</div>
+ 
+    
+                                                                <!-- -------services---------        -->
+
+          <div id="services">
+            <div class="conainer">
+                <h1 class="sub-title">MY SERVICES</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>We create visually stunning, user-friendly websites tailored to your needs, 
+                            ensuring seamless navigation, responsive layouts, and modern aesthetics.</p>
+                            <a href="#">Learn More</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>UI/UX DESIGN</h2>
+                        <p>We craft intuitive, user-centric interfaces that enhance user experience,
+                             ensuring seamless interactions, accessibility, and visually appealing designs.</p>
+                            <a href="#">Learn More</a>
+                    </div>
+
+
+                    <div>
+                        <i class="fa-solid fa-database"></i>
+                        <h2>SQL Database</h2>
+                        <p>We design, optimize, and manage SQL databases for efficient data storage,
+                             retrieval, and security, ensuring reliable and scalable solutions.</p>
+                            <a href="#">Learn More</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+          </div>
+      
+
+                                                                 <!-- --------portfolio-------- -->
+               
+               <div id="portfolio">             
+                    
+                  <div class="container"></div>
+                  <h1 class="sub-title">MY WORK</h1>
+                  <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                            <h3>Weather app</h3>
+                            <p>this app connects you to talented people<br> around the real-world
+                                download it form app store</p>
+                                <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h3>e-commerce app</h3>
+                            <p>this app connects you to talented people<br> around the real-world
+                                download it form app store</p>
+                                <a href="#"><i class="fa-solid fa-link"></i></a>
+
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="images/work-3.png">
+                        <div class="layer">
+                            <h3>calculator</h3>
+                            <p>this app connects you to talented people<br> around the real-world
+                                download it form app store</p>
+                                <a href="#"><i class="fa-solid fa-link"></i></a>
+
+                        </div>
+                    </div>
+                  </div>
+
+               </div>
+              
+               <!-- -------------------------------------------contact------------------ -->
+                <div id="contact" >
+                    <div class="container">
+                        <div class="row">
+                            <div class="contact-left">
+                                <h1 class="sub-title">Contact Me</h1><br><br>
+                                <p> <i class="fa-sharp fa-solid fa-paper-plane"></i>rayyankhaan1140@gmail.com</p><br><br>
+                                <p><i class="fa-solid fa-phone"></i>+968 79341888</p>
+                                <div class="social-icons">
+                                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                                </div>
+                            </div>
+                            <div class="contact-right">
+                                <form name="submit-to-google-sheet">
+                                    <input type="text" name="Name" placeholder="Your Name" required>
+                                    <input type="email" name="email" placeholder="Your Email" required>
+                                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+
+                                    <div class="button-container">
+                                        <button class="submit-button" type="submit">Submit</button>
+                                      </div><br><br>
+
+                                      
+                                    
+
+
+
+                                 </form>
+                                 <span id="msg"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                                       <div class="copyright">
+                                        <p>&copy; copyright 2025 Mohammed Rayyan Khan. All Rights Reserved. | Designed with ❤️ by Rayyan</p>
+                                      </div>
+
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'UI/UX Designer','Backend Developer','Frontend Developer'],
+          typeSpeed: 150,
+          backSpeed: 50,
+          loop: true,
+          showCursor: true,
+          cursorChar: '_'
+        });
+      </script>
+
+      <script>
+          var icon = document.getElementById("icon");
+
+          if(localStorage.getItem("theme") == null) {
+            localStorage.setItem("theme","light");
+          }
+
+
+          let localData = localStorage.getItem("theme");
+
+          if(localData =="light"){
+            icon.src = "images/moon.png";
+            document.body.classList.remove("dark-theme"); 
+          }
+          else if(localData =="dark"){
+            icon.src = "images/sun.png";
+            document.body.classList.add("dark-theme"); 
+          }
+
+          icon.onclick = function(){
+            document.body.classList.toggle("dark-theme");
+            if(document.body.classList.contains("dark-theme")){
+                icon.src = "images/sun.png";
+                localStorage.setItem("theme","dark");
+            }else{
+                icon.src = "images/moon.png";
+                localStorage.setItem("theme","light");
+            }
+          }
+      </script>
+
+      <script>
+        const circleSection = document.querySelector('.circles');
+        const circles = document.querySelectorAll('.circle');
+        const progressCircles = document.querySelectorAll('.progress');
+        const progressText = document.querySelectorAll('.circles h1');
+
+        let bol = false;
+        // add on scroll event listener
+        window.addEventListener("scroll", function (){
+            if (pageYOffset > circleSection.offsetTop - 600 && bol === false){
+                      for(let i =0; i< circles.length; i++){
+                        let radius = progressCircles[i].r.baseVal.value;
+                        let circumference = radius * 2 *  Math.PI;
+                        progressCircles[i].style.strokeDasharray = circumference;
+                        function setProgress(percent){
+                            progressCircles[i].style.strokeDashoffset = 
+                            circumference - (percent / 100) * circumference;
+                        }
+                        const progress = circles[i].dataset.prog;
+                        progressText[i].innerHTML = progress +"%";
+                        setProgress(progress);
+
+                        bol = true;
+            }
+
+        }
+
+        }  );
+        </script>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+       
+         event.currentTarget.classList.add("active-link");
+         document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
+
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzyZF8FbUBDl8z2N35hqk0IhMzjRk6i8z49kQNCUq0vxeHOrZee2Zn4GSENxUA5S-V4/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML = "Message sent Succesfully!!"
+            setTimeout(function(){
+                msg.innerHTML = " "
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+
+
+
+    </body>
+</html>
